@@ -1,0 +1,58 @@
+
+.container-login{
+    background-color: rgb(232, 231, 213);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-login .inner-login{
+    width: 500px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 248, 124);
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
+}
+.ip-login{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.ip-1{
+    padding: 20px;
+}
+.ip-2{
+    padding: 20px;
+}
+input{
+    width: 300px;
+    height: 45px;
+}
+.btn-login{
+    display: flex;
+    justify-content:flex-end;
+    width: 300px;
+    justify-content: flex-end;
+}
+.main-btn{
+    width: 110px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    border-radius: 50px;
+    
+}
+.main-btn:hover{
+    background-color: rgb(2, 69, 2);
+    cursor: pointer;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
